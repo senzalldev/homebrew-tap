@@ -7,19 +7,19 @@
 class Emprise < Formula
   desc "AI partner for your terminal — any model, your machine, your data"
   homepage "https://emprise.dev"
-  version "0.8.1"
+  version "0.9.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/senzalldev/emprise-app/releases/download/0.8.1/emprise-darwin-arm64"
-      sha256 "82f52a2735b9330ba05c0c9c927fec77f440e91b287591604186a7bb87986086"
+      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.0/emprise-darwin-arm64"
+      sha256 "86203e4964e5afb902684370d6a6601d4d4041ad30b7d0d2c33b8d257bd9a750"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/senzalldev/emprise-app/releases/download/0.8.1/emprise-linux-amd64"
-      sha256 "fc9e4e1f6a0fd9f7523620908d176e2abb5cd0cda7cbee533fa1bca4cf0a7e7f"
+      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.0/emprise-linux-amd64"
+      sha256 "a09e88212ae5d8f85bb99a920f91d4235caf39fd95560c58140da91c6fede390"
     end
   end
 
