@@ -6,27 +6,27 @@
 class Emprise < Formula
   desc "AI partner for your terminal — any model, your machine, your data"
   homepage "https://emprise.dev"
-  version "0.9.7"
+  version "0.9.8"
 
   on_macos do
     on_arm do
-      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.7/emprise-darwin-arm64"
-      sha256 "95cb1b05124b0e8c68bd44a75429a58d351f0d582eb3e59bf6f80252123e2fd2"
+      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.8/emprise-darwin-arm64"
+      sha256 "f6351745c7eb84fc098db0da9f0a1057a5734a45136b89d39b69115d22c480a1"
     end
     on_intel do
-      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.7/emprise-darwin-amd64"
-      sha256 "0ce3024c0fa6a080b886e36f10029a0f870bd9a0f20899f14646cfb73d6e414d"
+      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.8/emprise-darwin-amd64"
+      sha256 "0d48b9bb399c562196c50caefef7157e219450c2ee03d1b593b9010f435c1e79"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.7/emprise-linux-amd64"
-      sha256 "cd7dd05b209f0c46cdb521b2656add54b099030b2b60195c7124e4587b25a508"
+      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.8/emprise-linux-amd64"
+      sha256 "ca8f76ce478fbfea1215c0f14f4a2ebfe1d98fa2571b07a1bc352ef35d899e62"
     end
     on_arm do
-      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.7/emprise-linux-arm64"
-      sha256 "c2bea132fbe24a9c620765320cd390f4f6edf0c984a4e6bf7fe739fa74acacca"
+      url "https://github.com/senzalldev/emprise-app/releases/download/0.9.8/emprise-linux-arm64"
+      sha256 "4a6aceee3d37ec6d861e7812095c58a68a9824ffb7249baea0c19f1cad20da9a"
     end
   end
 
