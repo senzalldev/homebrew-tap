@@ -8,7 +8,7 @@ cask "pouncesql" do
   homepage "https://pouncesql.com"
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "PounceSQL.app"
 
