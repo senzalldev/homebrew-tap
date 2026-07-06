@@ -1,8 +1,8 @@
 cask "pouncesql" do
-  version "0.3.99"
-  sha256 "9b525b4c3522dbac6f57a55414b9dbff05c01a6866b61b53402b164a1dc5b7aa"
+  version "0.3.110"
+  sha256 "c88c3a84aff52f2d53092dcd1a02d6db7bedb7b249c92f6c410861f36a7bf798"
 
-  url "https://github.com/senzalldev/pouncesql-app/releases/download/v#{version}/PounceSQL-#{version}.dmg"
+  url "https://github.com/pounceapps/downloads/releases/download/v#{version}/PounceSQL-#{version}.dmg"
   name "PounceSQL"
   desc "Native macOS SQL client for Azure SQL, SQL Server, PostgreSQL & SQLite with AI + MCP"
   homepage "https://pouncesql.com"
@@ -12,8 +12,11 @@ cask "pouncesql" do
 
   app "PounceSQL.app"
 
+  # PounceSQL moved to the pounceapps tap. This cask now points at the pounceapps
+  # release so existing installs keep upgrading. Re-tap for the canonical source:
+  #   brew untap senzalldev/tap && brew install --cask pounceapps/tap/pouncesql
   zap trash: [
     "~/Library/Application Support/PounceSQL",
-    "~/Library/Preferences/dev.senzall.pouncesql.plist",
+    "~/Library/Preferences/com.pounceapps.pouncesql.plist",
   ]
 end
