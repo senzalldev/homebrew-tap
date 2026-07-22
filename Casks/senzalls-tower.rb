@@ -1,7 +1,7 @@
 cask "senzalls-tower" do
-  version "1.0.0"
-  sha256 "80eed5bae66d1a3fbe67e3be5a0cf188569d1a2b8e6babc5d2d85ca4dced707d"
-  url "https://github.com/senzalldev/senzalls-tower/releases/download/v1.0.0/Senzalls-Tower-1.0.0.dmg"
+  version "1.0.1"
+  sha256 "ab24f66255b37be6f1f14be27f8e47e665e49a0fcb0da4fd954aa6681e750432"
+  url "https://github.com/senzalldev/senzalls-tower/releases/download/v1.0.1/Senzalls-Tower-1.0.1.dmg"
   name "Senzall's Tower"
   desc "Offline single-player tower-building simulation game"
   homepage "https://senzall.com"
